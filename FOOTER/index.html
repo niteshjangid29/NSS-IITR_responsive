@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSS | IITR</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="footer">
+        <div class="container">
+                <div class="footer-left">
+                    <div class="slogan">
+                        <div class="slo-left">
+                            <div class="not-for-me">
+                                <h3>NOT <span>FOR ME</span></h3>
+                            </div>
+                            <div class="but">
+                                <h3>BUT </h3>
+                                <div class="for-the-nation">
+                                    <h3 class="for-the-nation">FOR THE<br><span>NATION</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slo-right">
+                            <p>NSS IIT Roorkee</p>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <h3>Contact Us</h3>
+                        <div class="location">
+                            <i class="fa fa-map-marker"></i>
+                            <a href="">NSS Office, 2nd floor, Multi Activity Centre, IIT Roorkee, 247667</a>
+                        </div>
+                        <div class="mail-phone">
+                            <div class="mail">
+                                <a href="mailto:nss@iitr.ac.in"><i class="fa fa-envelope"></i>nss@iitr.ac.in</a>
+                            </div>
+                            <div class="phone">
+                                <a href="tel:+91-9877247661"><i class="fa fa-phone"></i>+91-9877247661</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-center">
+                    <h4>MENU</h4>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Blogs</a></li>
+                        <li><a href="">Events</a></li>
+                        <li><a href="">Collaborations</a></li>
+                        <li><a href="">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-right">
+                    <h3>CONTACT FORM</h3>
+                    <div class="contact-info">
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Email Address">
+                    </div>
+                    <div class="message">
+                        <textarea rows="4" placeholder="Your message"></textarea>
+                    </div>
+                    <a href="" class="sub_btn">Submit</a>
+                </div>
+        </div>
+    </div>
+
+
+
+    <!-- --------------js for toggle menu------------ -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
